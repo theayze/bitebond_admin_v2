@@ -1,7 +1,7 @@
 import { Account, Appwrite, Storage } from "@refinedev/appwrite";
 
-const APPWRITE_URL = "https://refine.appwrite.org/v1";
-const APPWRITE_PROJECT = "61c4368b4e349";
+const APPWRITE_URL = 'https://cloud.appwrite.io/v1';
+const APPWRITE_PROJECT = "666190b6000d516078cd";
 
 const appwriteClient = new Appwrite();
 
@@ -10,3 +10,4 @@ const account = new Account(appwriteClient);
 const storage = new Storage(appwriteClient);
 
 export { account, appwriteClient, storage };
+
